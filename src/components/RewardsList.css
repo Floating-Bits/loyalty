@@ -1,0 +1,51 @@
+.rewards-list {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rewards-container {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.reward-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  min-width: 200px;
+  height: 150px;
+  color: #fff;
+  position: relative;
+}
+
+.reward-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.reward-item.available {
+  
+}
+
+.btn-claim {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
