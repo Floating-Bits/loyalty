@@ -19,6 +19,10 @@
   .logo {
     height: 40px;
   }
+
+  .personicon {
+    height: 22px;
+  }
   
   .title {
     position: absolute;

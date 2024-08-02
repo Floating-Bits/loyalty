@@ -1,16 +1,14 @@
 .loyalty-card {
-  background-color: #f9f9f9;
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
   margin: 10px 0;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 .card-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 .progress-bar {
@@ -23,7 +21,7 @@
 
 .progress {
   height: 10px;
-  background-color: #4caf50;
+  background-color: #0d3dd7;
 }
 
 .card-buttons {
@@ -41,11 +39,11 @@
 
 .btn-open {
   background-color: #fff;
-  color: #4caf50;
-  border: 1px solid #4caf50;
+  color: #0d3dd7;
+  border: 1px solid #0d3dd7;
 }
 
 .btn-upgrade {
-  background-color: #4caf50;
+  background-color: #0d3dd7;
   color: #fff;
 }

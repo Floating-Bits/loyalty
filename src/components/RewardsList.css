@@ -1,7 +1,7 @@
 .rewards-list {
   border-radius: 20px;
-  padding: 10px;
-  margin: 10px 0;
+  padding-top: 10px;
+  margin: 10px;
 }
 
 .rewards-container {
@@ -40,7 +40,7 @@
 }
 
 .btn-claim {
-  background-color: #4caf50;
+  background-color: #0d3dd7;
   color: #fff;
   border: none;
   border-radius: 20px;

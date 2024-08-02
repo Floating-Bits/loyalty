@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
-import logo from './img/logo.png';
+import logo from './img/logo.webp';
+import personicon from './img/personicon.png'
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       </div>
       <h1 className="title">MONTY'S</h1>
       <div className="header-right">
-        <button className="icon-button">♺</button>
+        <img src={personicon} alt="person" className="personicon"/>
       </div>
     </header>
   );

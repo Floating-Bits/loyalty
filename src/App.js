@@ -11,6 +11,7 @@ function App() {
       <Header />
       <main className="main-content">
         <LoyaltyCard />
+        <div style={{ borderBottom: '0.5px solid #000000', margin: '5px 0' }}></div>
         <RewardsList />
         <UserProfile />
       </main>
