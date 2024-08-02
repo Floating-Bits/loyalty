@@ -3,6 +3,8 @@
   text-align: center;
   background-color: hsl(167, 45%, 78%);
   padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .main-content {
