@@ -1,9 +1,7 @@
 .rewards-list {
-  background-color: #fff;
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
   margin: 10px 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .rewards-container {
@@ -23,17 +21,18 @@
   background-size: cover;
   background-position: center;
   min-width: 200px;
-  height: 150px;
+  height: 250px;
   color: #fff;
   position: relative;
 }
 
 .reward-content {
-  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgba(128, 128, 128, 0.518);
   padding: 10px;
   border-radius: 10px;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .reward-item.available {

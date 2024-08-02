@@ -11,8 +11,8 @@ function App() {
       <Header />
       <main className="main-content">
         <LoyaltyCard />
-        <UserProfile />
         <RewardsList />
+        <UserProfile />
       </main>
     </div>
   );

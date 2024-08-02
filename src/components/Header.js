@@ -10,8 +10,7 @@ const Header = () => {
       </div>
       <h1 className="title">MONTY'S</h1>
       <div className="header-right">
-        <button className="icon-button">≡</button>
-        <button className="icon-button">👤</button>
+        <button className="icon-button">♺</button>
       </div>
     </header>
   );
