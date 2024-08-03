@@ -1,10 +1,18 @@
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #e5d7b0;
+  background-color: #e5d7b0; /* Light mode background color */
   padding-bottom: 50px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .App {
+      background-color: #212529; /* Example dark color */
+      color: #ffffff; /* Optional: Change text color for better contrast */
+  }
 }
 
 .main-content {

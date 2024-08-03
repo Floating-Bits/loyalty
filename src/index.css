@@ -5,11 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #b3e6d1;
+  background-color: #b3e6d1; /* Light color */
   background-color: hsl(167, 73%, 85%);
   -webkit-background-color: hsl(167, 73%, 85%);
 }
 
+/* Dark mode background color */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #212529; /* Example dark color */
+        background-color: #212529; /* Adjust as needed */
+        -webkit-background-color: #212529;
+    }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

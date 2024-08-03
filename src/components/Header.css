@@ -3,16 +3,34 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
     position: fixed;
     top: 0;
     left: 0;
     width: 94%;
-    background-color: #e5d7b0; /* or any color you prefer */
-    z-index: 1000; /* ensures the header stays on top of other elements */
-  }
+    background-color: #e5d7b0; /* Light mode background color */
+    z-index: 1000; /* Ensures the header stays on top of other elements */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .header {
+        background-color: #212529; /* Example dark color */
+        color: #ffffff; /* Optional: Change text color for better contrast */
+    }
+}
   
+.header img {
+    /* Default styles for images in the header */
+    filter: none; /* No filter applied in light mode */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .header img {
+        filter: invert(1); /* Invert colors of images in the header in dark mode */
+    }
+}
+
   .header-left, .header-right {
     flex: 1;
     display: flex;
