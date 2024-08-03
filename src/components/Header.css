@@ -3,7 +3,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 94%;
+    background-color: hsl(167, 73%, 85%); /* or any color you prefer */
+    z-index: 1000; /* ensures the header stays on top of other elements */
   }
   
   .header-left, .header-right {
