@@ -14,11 +14,6 @@ export default function TopIcon() {
     const setupScene = () => {
       if (splineRef.current) {
         const app = splineRef.current;
-        
-        // Set the background color to black
-        if (app.scene) {
-          app.scene.background = new THREE.Color(0x000000); // Black color in hex
-        }
 
         // Disable zooming
         if (app.orbitControls) {
