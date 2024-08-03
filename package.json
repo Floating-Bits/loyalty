@@ -39,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    
+    "@babel/preset-env": "^7.25.3"
   }
 }
