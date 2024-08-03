@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import Spline from '@splinetool/react-spline';
-import * as THREE from 'three';
 import './TopIcon.css';
 
 export default function TopIcon() {
