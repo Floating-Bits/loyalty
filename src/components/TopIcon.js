@@ -1,4 +1,3 @@
-import React, { useRef, useEffect } from 'react';
 import Spline from '@splinetool/react-spline';
 import './TopIcon.css';
 
