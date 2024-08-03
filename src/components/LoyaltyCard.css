@@ -19,6 +19,15 @@
   margin: 10px 0;
 }
 
+.card-content h2 {
+  margin-bottom: 5px; /* Reduce bottom margin of h2 */
+}
+
+.card-content p {
+  margin-top: 0; /* Remove top margin of p */
+  margin-bottom: 10px; /* Add some space before the progress bar */
+}
+
 .progress {
   height: 10px;
   background-color: #0d3dd7;
