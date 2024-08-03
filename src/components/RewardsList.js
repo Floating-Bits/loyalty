@@ -17,7 +17,7 @@ const RewardsList = () => {
             <div className="reward-content">
               <span>{reward.name}</span>
               <span>{reward.points} points</span>
-              {reward.available && <button className="btn-claim">Claim now</button>}
+              {reward.available && <button className="btn-claim">Claim Now</button>}
             </div>
           </div>
         ))}
