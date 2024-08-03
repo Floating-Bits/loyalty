@@ -30,7 +30,7 @@
 
 .progress {
   height: 10px;
-  background-color: #0d3dd7;
+  background-color: #000000;
   transition: width 0.5s ease-in-out;
 }
 
@@ -45,15 +45,73 @@
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  font-weight: 700;
+  font-family: system-ui, -apple-system-rounded, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+.btn:active::after {
+  animation: ripple 0.4s ease-out;
 }
 
 .btn-open {
   background-color: #fff;
-  color: #0d3dd7;
-  border: 1px solid #0d3dd7;
+  color: #000000;
+  border: 1px solid #000000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .btn-upgrade {
-  background-color: #0d3dd7;
+  background-color: #000000;
   color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-open:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-upgrade:hover {
+  background-color: #333333;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
 }
